@@ -1,0 +1,20 @@
+{
+    "name": "yam/github-actions",
+    "description": "Hexlet lessons on GitHub-actions",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^12.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yam\\GithubActions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yakov Medvedev",
+            "email": "yakovmedvedev@gmail.com"
+        }
+    ]
+}
